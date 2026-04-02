@@ -47,7 +47,7 @@ The dataset consists of **3,900 transactions** with **18 features**, capturing a
 
 1. **Cleaning:** Standardized column names to `snake_case` and handled null values.
 2. **Feature Engineering:**
-   * Created `age_group` (Teen, Young Adult, Middle-aged, Senior).
+   * Created `age_group` (Young Adult, Adult, Middle-aged, Senior).
    * Mapped `purchase_frequency` to numerical day values.
 3. **Database Integration:** Cleaned data was stored in **MySQL Workbench** for structured analysis.
 
